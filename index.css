@@ -1,37 +1,26 @@
-body{
-	max-width: 100%;
-	overflow-x: hidden;
+#a1{
+    width: 270px;
+    margin: auto;
+    background-color: #262424;
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 50px -7px black;
 }
-table { 
-	border: 1px solid black; 
-	margin-left: auto; 
-	margin-right: auto; 
-} 
-
-input[type="button"] { 
-	width: 100%; 
-	padding: 20px 40px; 
-	/* background-color: rgb(65, 84, 87);  */
-	background-image:  linear-gradient(white , grey);
-	color: black; 
-	font-size: 24px; 
-	font-weight: bold; 
-	border: none; 
-	border-radius: 5px; 
+#a2{
+    padding: 15px;
 }
-
-input[type="button"]:hover{
-	background-image: linear-gradient(black, rgb(32, 10, 2));
-	color: white;
-	box-shadow: 10px 10px 5px rgb(148, 145, 125);
-}
-
-input[type="text"] { 
-	padding: 20px 30px; 
-	font-size: 24px; 
-	font-weight: bold; 
-	border: none; 
-	border-radius: 5px; 
-	border: 2px solid black; 
-	width: 100%;
+.button {
+    width: 25%;
+    background: #262424;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: -4px;
+    border-right: solid 1px #b7c0c9;
+    border-bottom: solid 1px #b7b7d0;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+  
 }
